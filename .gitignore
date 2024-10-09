@@ -1,0 +1,90 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+
+# Ignorowanie katalogów budowania i zależności Maven
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+pom.xml.releaseBackup
+pom.xml.tag
+/ReleaseNotes.md
+/Dependency-Analysis.txt
+
+# Ignorowanie plików ustawień IDE
+/.idea/
+/*.iml
+
+/.classpath
+/.project
+/.settings/
+
+/test-output/
+/.factorypath
+/.vscode/
+*.launch
+
+# Ignorowanie logów
+*.log
+*.log.*
+/*.log
+
+# Ignorowanie plików konfiguracyjnych
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Ignorowanie plików binarnych
+*.class
+*.war
+*.jar
+*.ear
+
+# Ignorowanie plików tymczasowych systemowych
+*.swp
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.tmp
+
+# Ignorowanie folderów Docker
+docker-compose.override.yml
+/.docker/
+/docker/
+
+# Ignorowanie plików środowiskowych i konfiguracji
+.env
+*.env
+
+# Ignorowanie katalogów testowych
+/.mvn/
+
+# Ignorowanie buildów Maven
+/build/
+**/target/
+**/.mvn/timing.properties
+
+# Ignorowanie plików tymczasowych
+*~
+
+
+# Ignorowanie plików volumes Dockera
+**/docker-volume/
+**/volumes/
+**/data/
+
+
+

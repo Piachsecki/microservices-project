@@ -10,8 +10,6 @@
 	</parent>
 	<groupId>com.piachsecki</groupId>
 	<artifactId>product-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>product-service</name>
 	<description>My microservice Spring Boot app</description>
 	<url/>
 	<licenses>

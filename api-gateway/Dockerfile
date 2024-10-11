@@ -5,10 +5,10 @@ FROM openjdk:21-jdk
 WORKDIR /app
 
 # Copy the jar file of the application to the container
-COPY target/inventory-service-3.3.4.jar /app/inventory-service.jar
+COPY target/api-gateway-3.3.4.jar /app/api-gateway.jar
 
 # Expose the port on which the application will run
-EXPOSE 8082
+EXPOSE 9000
 
 # Set the entry point to run the jar file
-ENTRYPOINT ["java", "-jar", "/app/inventory-service.jar", "--server.port=8082"]
+ENTRYPOINT ["java", "-jar", "/app/api-gateway.jar", "--server.port=9000"]

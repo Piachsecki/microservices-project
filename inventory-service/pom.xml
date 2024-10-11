@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.piachsecki</groupId>
 	<artifactId>inventory-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>inventory-service</name>
 	<description>Microservice app</description>
 	<url/>

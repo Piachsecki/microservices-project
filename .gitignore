@@ -60,11 +60,6 @@ application-*.yml
 *.bak
 *.tmp
 
-# Ignorowanie folderów Docker
-docker-compose.override.yml
-/.docker/
-/docker/
-
 # Ignorowanie plików środowiskowych i konfiguracji
 .env
 *.env
